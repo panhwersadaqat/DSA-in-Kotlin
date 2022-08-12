@@ -6,7 +6,7 @@ fun recursiveBinarySearch(data: List<Int>, start: Int, end: Int, target: Int): I
 
         if (data[mid] == target)
             return mid
-        
+
         if (data[mid] > target)
             return recursiveBinarySearch(data, start, mid-1, target)
 

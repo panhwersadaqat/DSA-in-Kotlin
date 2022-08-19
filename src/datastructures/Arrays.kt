@@ -34,15 +34,11 @@ private fun appendExample() {
 
 private fun deleteExample() {
     val list = arrayListOf<Int>(2,4,6,8,10,12)
-
         /*
             -Linear runtime
             -It move elements to left for removing element on desire index.
         */
 
     list.remove(12)
-
     println(list)
-
-
 }

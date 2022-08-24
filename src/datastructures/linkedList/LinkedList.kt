@@ -86,16 +86,9 @@ fun main() {
 
     val afterNodeRef = linkedListWithInsert.findNodeAt(givenIndex = 0)
 
-    /*if(afterNodeRef != null) {
-        linkedListWithAppend.insertElement(value = 99, afterNode = afterNodeRef)
-    }*/
-
     afterNodeRef?.also {
         linkedListWithInsert.insertElement(value = 99, it)
     }
-
-
-
 
     println("Push output: $linkedListWithPush")
     println("Append output: $linkedListWithAppend")

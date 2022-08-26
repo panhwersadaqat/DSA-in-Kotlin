@@ -1,4 +1,5 @@
 package algorithms.sorting
 
-class BubbleSort {
+fun main() {
+    
 }

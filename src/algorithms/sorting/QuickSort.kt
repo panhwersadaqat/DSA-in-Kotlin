@@ -13,13 +13,10 @@ fun quicksort(items:List<Int>):List<Int>{
     val i = items[items.count()/2]
 
     val equal = items.filter { it == i }
-//    println("pivot value is : "+equal)
 
     val less = items.filter { it < i }
-//    println("Lesser values than pivot : "+less)
 
     val greater = items.filter { it > i }
-//    println("Greater values than pivot : "+greater)
 
     return quicksort(less) + equal + quicksort(greater)
 }

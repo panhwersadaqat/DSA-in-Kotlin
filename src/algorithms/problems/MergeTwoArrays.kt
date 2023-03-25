@@ -10,12 +10,12 @@ fun main() {
 private fun mergeArrays(array1: Array<Int>, array2: Array<Int>) {
     var tempArray = ArrayList<Int>()
 
-    for(i in 0 .. array1.size-1) {
-        tempArray += array1[i]
+    for(element in array1) {
+        tempArray += element
     }
 
-    for(j in 0 .. array2.size-1) {
-        tempArray += array2[j]
+    for(element in array2) {
+        tempArray += element
     }
 
     tempArray.sort()

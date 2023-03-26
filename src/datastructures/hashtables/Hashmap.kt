@@ -1,7 +1,6 @@
 package datastructures.hashtables
 import java.util.*
 
-/*
 fun main() {
     val fruitHashMap = hashMapOf<String, Int>()
 
@@ -34,4 +33,4 @@ fun main() {
         println("${values.key} = ${values.value}")
     }
 
-}*/
+}

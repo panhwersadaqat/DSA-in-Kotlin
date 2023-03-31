@@ -1,5 +1,4 @@
-package datastructures.hashtables
-import java.util.*
+package datastructures.hash
 
 fun main() {
     val fruitHashMap = hashMapOf<String, Int>()

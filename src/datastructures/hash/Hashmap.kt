@@ -3,7 +3,7 @@ package datastructures.hash
 fun main() {
     val fruitHashMap = hashMapOf<String, Int>()
 
-    //inserting elemtns in hashmap
+    //inserting elements in hashmap
     fruitHashMap["Apple"] = 1
     fruitHashMap["Banana"] = 2
     fruitHashMap["Orange"] = 3
